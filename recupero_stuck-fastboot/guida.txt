@@ -1,0 +1,13 @@
+Recover from device stuck in fastboot without miflash and fastboot rom
+
+- Download this file https://drive.google.com/file/d/1--4VftXxw1F17JQ_FC4FQSGMsN6PtRSS/view?usp=drivesdk
+
+- Copy it and your recovery img to pc and use them in below commands
+
+- Execute the following commands in fastboot mode exactly as written
+
+fastboot flash vbmeta vbmeta_dv_shivsom.img
+
+fastboot flash recovery your_recovery.img
+
+-Then press and hold power and vol up till you see recovery
